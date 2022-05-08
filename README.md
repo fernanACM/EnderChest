@@ -38,7 +38,7 @@
 ### Permissions
 
 - Executing the command: ```enderchest.acm```
-- 
+
 ### Contact
 | Redes | Tag | Link |
 |-------|-------------|------|
