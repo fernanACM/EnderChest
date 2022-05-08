@@ -1,0 +1,15 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/fernanACM/EnderChest
+build-by-default: true
+branches:
+- PM4
+projects:
+  EnderChest:
+    path: ""
+    icon: icon-enderchest.png
+    libs:
+      - src: muqsit/InvMenu/InvMenu
+        version: ^4.3.8
+        branch: "4.0"
+    lint:
+      phpstan: false
+...
