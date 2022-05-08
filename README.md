@@ -49,6 +49,5 @@
 ****
 
 ### Credits
----
 * **[Muqsit](https://github.com/Muqsit)**
 * **[InvMenu](https://github.com/Muqsit/InvMenu/tree/4.0/)**
