@@ -11,21 +11,27 @@ use pocketmine\plugin\PluginBase;
 
 # Libs
 use muqsit\invmenu\InvMenuHandler;
+use muqsit\simplepackethandler\SimplePacketHandler;
+use CortexPE\Commando\PacketHooker;
 # My files
 use fernanACM\EnderChest\commands\EnderCommand;
 
 class Ender extends PluginBase{
     
     public Config $config;
+    public static $instance;
     
     public function onEnable(): void{
+        self::$instance = $this;
         $this->saveResource("config.yml");
-		$this->config = new Config($this->getDataFolder() . "config.yml");
+	$this->config = new Config($this->getDataFolder() . "config.yml");
         $this->saveDefaultConfig();
         $this->loadEvents();
-        # Lib - InvMenu
+        # Libs - InvMenu, Commando and SimplePacketHandler
         foreach ([
-                "InvMenu" => InvMenuHandler::class
+                "InvMenu" => InvMenuHandler::class,
+                "Commando" => PacketHooker::class,
+                "SimplePacketHandler" => SimplePacketHandler::class
             ] as $virion => $class
         ) {
             if (!class_exists($class)) {
@@ -38,9 +44,17 @@ class Ender extends PluginBase{
         if (!InvMenuHandler::isRegistered()) {
             InvMenuHandler::register($this);
         }
+        #Commando
+        if (!PacketHooker::isRegistered()) {
+            PacketHooker::register($this);
+        }
     }
     
     public function loadEvents(){
-        $this->getServer()->getCommandMap()->register("enderchest", new EnderCommand($this));
+        $this->getServer()->getCommandMap()->register("enderchest", new EnderCommand($this, "enderchest", "Open EnderChest by fernanACM", ["ec", "ender"]));
+    }
+    
+    public static function getInstance(): Ender{
+        return self::$instance;
     }
 }
