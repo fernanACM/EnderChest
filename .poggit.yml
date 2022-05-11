@@ -7,6 +7,11 @@ projects:
     path: ""
     icon: icon-enderchest.png
     libs:
+      - src: CortexPE/Commando/Commando
+        version:  ^3.0.0
+        branch: PM4
+      - src: muqsit/simplepackethandler/SimplePacketHandler
+        version: ^0.0.1
       - src: muqsit/InvMenu/InvMenu
         version: ^4.3.8
         branch: "4.0"
