@@ -11,7 +11,7 @@
 <a href="https://discord.gg/YyE9XFckqb"><img src="https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 ---
 
-### Config
+### 💾 Config
 ```yaml
      #  _____               _                  ____   _                    _   
      # | ____|  _ __     __| |   ___   _ __   / ___| | |__     ___   ___  | |_ 
@@ -32,14 +32,14 @@
        EnderChest-sound: "random.enderchestopen"
    ```
    
-### Commands
+### 🕹 Commands
 /enderchest - Open Portable EnderChest.
 
-### Permissions
+### 🔒 Permissions
 
 - Executing the command: ```enderchest.acm```
 
-### Contact
+### 📞 Contact
 | Redes | Tag | Link |
 |-------|-------------|------|
 | YouTube | fernanACM | [YouTube](https://www.youtube.com/channel/UC-M5iTrCItYQBg5GMuX5ySw) | 
@@ -48,6 +48,10 @@
 | Poggit | fernanACM | [Poggit](https://poggit.pmmp.io/ci/fernanACM)
 ****
 
-### Credits
+### ✔ Credits
 * **[Muqsit](https://github.com/Muqsit)**
 * **[InvMenu](https://github.com/Muqsit/InvMenu/tree/4.0/)**
+* **[SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler)**
+
+* **[CortexPE](https://github.com/CortexPE)**
+* **[Commando](https://github.com/CortexPE/Commando/tree/master/)**
