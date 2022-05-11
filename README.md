@@ -52,6 +52,6 @@
 * **[Muqsit](https://github.com/Muqsit)**
 * **[InvMenu](https://github.com/Muqsit/InvMenu/tree/4.0/)**
 * **[SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler)**
-
+---
 * **[CortexPE](https://github.com/CortexPE)**
 * **[Commando](https://github.com/CortexPE/Commando/tree/master/)**
