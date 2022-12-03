@@ -1,6 +1,6 @@
 name: EnderChest
 main: fernanACM\EnderChest\Ender
-version: 1.0.1
+version: 1.0.2
 api: 4.0.0
 author: fernanACM
 description: Portable EnderChest for PocketMine-MP 4.0 Servers
