@@ -1,20 +1,23 @@
 --- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/fernanACM/EnderChest
 build-by-default: true
 branches:
+- PM5
 - PM4
 projects:
   EnderChest:
     path: ""
     icon: icon-enderchest.png
     libs:
-      - src: CortexPE/Commando/Commando
-        version:  ^3.0.0
-        branch: PM4
+      - src: ACM-PocketMine-MP/Commando/Commando
+        version: ^3.2.0
+        branch: PM5
       - src: muqsit/simplepackethandler/SimplePacketHandler
-        version: ^0.0.1
+        version: ^0.1.3
       - src: muqsit/InvMenu/InvMenu
-        version: ^4.4.1
-        branch: "4.0"
+        version: ^4.6.1
+        branch: "pm5"
+      - src: ACM-PocketMine-MP/libPiggyUpdateChecker/libPiggyUpdateChecker
+        version: ^2.0.0
     lint:
       phpstan: false
 ...

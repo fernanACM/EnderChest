@@ -10,8 +10,11 @@
  # enderchest, a custom sound function can also be added. The sounds 
  # page of the game: https://www.digminecraft.com/lists/sound_list_pe.php
 
+# DO NOT TOUCH
+config-version: "1.0.0"
 # ======(SETTINGS)======
 Settings:
   EnderChest-name: "EnderChest inventory"
   EnderChest-no-sound: true
-  EnderChest-sound: "random.enderchestopen"
+  EnderChest-open-sound: "random.enderchestopen"
+  EnderChest-closed-sound: "random.enderchestclosed"

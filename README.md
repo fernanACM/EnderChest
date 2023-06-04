@@ -3,7 +3,7 @@
 [![](https://poggit.pmmp.io/shield.api/EnderChest)](https://poggit.pmmp.io/p/EnderChest)
 
 # EnderChest
-**Portable EnderChest for PocketMine-MP 4.0 Servers Everything can be configured via 'config.yml', the name of the enderchest, a custom sound function can also be added. The sounds page of the game:** [minecraft sounds](https://www.digminecraft.com/lists/sound_list_pe.php)
+**Portable EnderChest for PocketMine-MP 5.0 Servers Everything can be configured via 'config.yml', the name of the enderchest, a custom sound function can also be added. The sounds page of the game:** [minecraft sounds](https://www.digminecraft.com/lists/sound_list_pe.php)
 
 
 ![Captura de pantalla 2022-05-08 164331](https://user-images.githubusercontent.com/83558341/167317673-138cd3d8-9af8-453a-8929-8f75c7341eca.png)
