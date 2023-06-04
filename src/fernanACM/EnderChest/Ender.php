@@ -20,6 +20,8 @@ use muqsit\invmenu\InvMenu;
 use muqsit\invmenu\InvMenuHandler;
 use muqsit\simplepackethandler\SimplePacketHandler;
 
+use DaPigGuy\libPiggyUpdateChecker\libPiggyUpdateChecker;
+
 use CortexPE\Commando\PacketHooker;
 use CortexPE\Commando\BaseCommand;
 # My files

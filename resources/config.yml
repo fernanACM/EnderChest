@@ -15,6 +15,6 @@ config-version: "1.0.0"
 # ======(SETTINGS)======
 Settings:
   EnderChest-name: "EnderChest inventory"
-  EnderChest-no-sound: true
-  EnderChest-open-sound: "random.enderchestopen"
-  EnderChest-closed-sound: "random.enderchestclosed"
+  EnderChest-sound: true
+  EnderChest-open-soundName: "random.enderchestopen"
+  EnderChest-closed-soundName: "random.enderchestclosed"
