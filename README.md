@@ -14,30 +14,36 @@
 ### 💾 Config
 ```yaml
      #  _____               _                  ____   _                    _   
-     # | ____|  _ __     __| |   ___   _ __   / ___| | |__     ___   ___  | |_ 
-     # |  _|   | '_ \   / _` |  / _ \ | '__| | |     | '_ \   / _ \ / __| | __|
-     # | |___  | | | | | (_| | |  __/ | |    | |___  | | | | |  __/ \__ \ | |_ 
-     # |_____| |_| |_|  \__,_|  \___| |_|     \____| |_| |_|  \___| |___/  \__|
-     #          by fernanACM
+ # | ____|  _ __     __| |   ___   _ __   / ___| | |__     ___   ___  | |_ 
+ # |  _|   | '_ \   / _` |  / _ \ | '__| | |     | '_ \   / _ \ / __| | __|
+ # | |___  | | | | | (_| | |  __/ | |    | |___  | | | | |  __/ \__ \ | |_ 
+ # |_____| |_| |_|  \__,_|  \___| |_|     \____| |_| |_|  \___| |___/  \__|
+ #          by fernanACM
  
-     # Portable EnderChest for PocketMine-MP 4.0 Servers.
-     # Everything can be configured via 'config.yml', the name of the 
-     # enderchest, a custom sound function can also be added. The sounds 
-     # page of the game: https://www.digminecraft.com/lists/sound_list_pe.php
+ # Portable EnderChest for PocketMine-MP 4.0 Servers.
+ # Everything can be configured via 'config.yml', the name of the 
+ # enderchest, a custom sound function can also be added. The sounds 
+ # page of the game: https://www.digminecraft.com/lists/sound_list_pe.php
 
-     # ======(SETTINGS)======
-     Settings:
-       EnderChest-name: "EnderChest inventory"
-       EnderChest-no-sound: true
-       EnderChest-sound: "random.enderchestopen"
+# DO NOT TOUCH
+config-version: "1.0.0"
+# ======(SETTINGS)======
+Settings:
+  EnderChest-name: "EnderChest inventory"
+  EnderChest-sound: true
+  EnderChest-open-soundName: "random.enderchestopen"
+  EnderChest-closed-soundName: "random.enderchestclosed"
    ```
    
 ### 🕹 Commands
-/enderchest - Open Portable EnderChest.
+| Command | Description |
+|---------|-------------|
+| ```/enderchest``` | Open Portable EnderChest |
 
 ### 🔒 Permissions
-
-- Executing the command: ```enderchest.acm```
+| Permission | Description |
+|---------|-------------|
+| ```enderchest.acm``` | Executing the command |
 
 ### 📞 Contact
 | Redes | Tag | Link |
@@ -49,9 +55,9 @@
 ****
 
 ### ✔ Credits
-* **[Muqsit](https://github.com/Muqsit)**
-* **[InvMenu](https://github.com/Muqsit/InvMenu/tree/4.0/)**
-* **[SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler)**
----
-* **[CortexPE](https://github.com/CortexPE)**
-* **[Commando](https://github.com/CortexPE/Commando/tree/master/)**
+| Authors | Github | Lib |
+|---------|--------|-----|
+| CortexPE | [CortexPE](https://github.com/CortexPE) | [Commando](https://github.com/CortexPE/Commando/tree/master/) |
+| Muqsit | [Muqsit](https://github.com/Muqsit) | [SimplePacketHandler](https://github.com/Muqsit/SimplePacketHandler) |
+| Muqsit | [Muqsit](https://github.com/Muqsit) | [InvMenu](https://github.com/Muqsit/InvMenu) |
+| DaPigGuy | [DaPigGuy](https://github.com/DaPigGuy) | [libPiggyUpdateChecker](https://github.com/DaPigGuy/libPiggyUpdateChecker) |
