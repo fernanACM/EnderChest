@@ -46,6 +46,9 @@ class Ender extends PluginBase{
         $this->loadFiles();
     }
 
+    /**
+     * @return void
+     */
     public function onEnable(): void{
         $this->loadCheck();
         $this->loadVirions();
@@ -60,6 +63,9 @@ class Ender extends PluginBase{
 	    $this->config = new Config($this->getDataFolder() . "config.yml");
     }
 
+    /**
+     * @return void
+     */
     public function loadCheck(){
         # CONFIG
         if((!$this->config->exists("config-version")) || ($this->config->get("config-version") != self::CONFIG_VERSION)){
