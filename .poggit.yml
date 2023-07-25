@@ -14,7 +14,7 @@ projects:
       - src: muqsit/simplepackethandler/SimplePacketHandler
         version: ^0.1.3
       - src: muqsit/InvMenu/InvMenu
-        version: ^4.6.1
+        version: ^4.6.4
         branch: "pm5"
       - src: ACM-PocketMine-MP/libPiggyUpdateChecker/libPiggyUpdateChecker
         version: ^2.0.0
